@@ -9,9 +9,9 @@ class UsersController < ApplicationController
    end
 
    def create
-      farmer = Farmer.new(farmer_params)
-      if farmer.save
-         session[:farmer_id] = farmer.id
+      user = User.new(user_params)
+      if user.save
+         session[:user_id] = user.id
          redirect_to home_path   
       else
          render :new
@@ -22,8 +22,8 @@ class UsersController < ApplicationController
 
    private
 
-   def farmer_params
-      params.require(:farmer).permit(:username, :email, :password)
+   def user_params
+      params.require(:user).permit(:name, :email, :username, :password)
    end
 
 end
