@@ -1,11 +1,11 @@
 class UsersController < ApplicationController
 
    def new
-      # if !logged_in?
+      if !logged_in?
          @user = User.new
-      # else
-      #    redirect_to home_path
-      # end
+      else
+         redirect_to home_path
+      end
    end
 
    def create

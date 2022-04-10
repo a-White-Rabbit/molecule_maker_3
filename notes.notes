@@ -6,10 +6,10 @@ Current ToDo:
    [√] styles
    [√] nav bar
 [ ] user MVC
-   [ ] model
-   [ ] controller
-   [ ] views
-   [ ] routes
+   [√] model
+   [√] controller
+   [√] views
+   [√] routes
    [ ] seeds
 [ ] session
    [ ] model
