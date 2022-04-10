@@ -1,11 +1,11 @@
 class UsersController < ApplicationController
 
    def new
-      if !logged_in?
-         @farmer = Farmer.new
-      else
-         redirect_to home_path
-      end
+      # if !logged_in?
+         @user = User.new
+      # else
+      #    redirect_to home_path
+      # end
    end
 
    def create
