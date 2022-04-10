@@ -1,3 +1,24 @@
+Current ToDo:
+[√] pages VC
+   [√] controller
+   [√] views
+   [√] routes
+   [√] styles
+   [√] nav bar
+[ ] user MVC
+   [ ] model
+   [ ] controller
+   [ ] views
+   [ ] routes
+   [ ] seeds
+[ ] session
+   [ ] model
+   [ ] controller
+   [ ] views
+   [ ] routes
+
+###############################################################################################
+
 Functionality:
    USERS can
       [ ] log in and out
