@@ -1,0 +1,39 @@
+Functionality:
+   USERS can
+      [ ] log in and out
+      [ ] +elements
+         [ ] +base
+         [ ] +ions
+         [ ] +isotopes
+      [ ] +molecules
+      [ ] share elements and molecules
+   ELEMENTS
+      [ ] are unique *based on number of protons*
+   MOLECULES
+      [ ] are unique *based on molecular formula*
+      [ ] made up of other elements
+      [ ] have molecular formula
+
+Base build:
+   element models (products)
+      [ ] name (user+)
+      [ ] protons (user+)
+      [ ] neutrons (user+)
+      [ ] electrons (user+)
+      [ ] mass (calc)
+      [ ] user_id
+   molecule models (carts?)
+      [ ] name (user+)
+      [ ] element (need join table for quantity)
+      [ ] description (user+)
+      [ ] mass (calc)
+      [ ] user_id
+      join-table (line_items)
+         [ ] quantity
+         [ ] element_id
+         [ ] molecule_id
+   user models (farmers)
+      [ ] name
+      [ ] username
+      [ ] password
+      [ ] email
